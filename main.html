@@ -1,0 +1,43 @@
+<!DOCTYPE.html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment 3 Part 2</title>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="java.js"></script>
+	</head>
+	<body>
+		<div id="searchForm">
+			<h1>Programming Language Search Engine</h1>
+			<p>Filter by:</p>
+			<input type="checkbox" name="programmingLanguage" value="NoFilter">No Filter<br>
+			<input type="checkbox" name="programmingLanguage" value="Python">Python<br>
+			<input type="checkbox" name="programmingLanguage" value="JSON">JSON<br>
+			<input type="checkbox" name="programmingLanguage" value="JavaScript">Javascript<br>
+			<input type="checkbox" name="programmingLanguage" value="SQL">SQL<br>
+			
+			<p>Select the page number below and then click search</p>
+			<select>
+					<option value="1">Page 1</option>
+					<option value="2">Page 2</option>
+					<option value="3">Page 3</option>
+					<option value="4">Page 4</option>
+					<option value="5">Page 5</option>
+			</select>
+
+			<input type="button" name="search" onclick="process()" value="Search">
+			<input type="button" name="favorites" onclick="" value="Add to Favorites"><br>
+		</div>
+
+	<p>Favorites</p>
+	<div id="favorites">
+
+	</div>
+
+	<p>Search results</p>
+	<div id="searchResults">
+
+	</div>
+
+	</body>
+</html>
